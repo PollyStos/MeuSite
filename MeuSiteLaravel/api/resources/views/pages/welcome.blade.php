@@ -3,9 +3,9 @@
 @section('title', 'Início')
 
 @section('content')
-<main class="">
-    <div class="home">
-        <img src="/img/bannerPrinc.png" alt="banner">
+<main class="d-flex flex-row ">
+    <div >
+        <img class="img-banner img-fluid" src="/img/bannerPrinc.png" alt="banner">
     </div>
 </main>
 <section class="d-flex align-items-center flex-column">
