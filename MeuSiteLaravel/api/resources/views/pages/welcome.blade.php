@@ -5,7 +5,7 @@
 @section('content')
 <main class="d-flex flex-row ">
     <div >
-        <img class="img-banner img-fluid" src="/img/bannerPrinc.png" alt="banner">
+        <img class="img-banner img-fluid" src="/img/BG/bannerPrinc.png" alt="banner">
     </div>
 </main>
 <section class="d-flex align-items-center flex-column">

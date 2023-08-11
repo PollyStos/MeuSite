@@ -22,7 +22,7 @@
 
 </head>
 
-<body class="bg-base-light">
+<body class="bg-base-light m-0">
     <div class="nav bg-dark ">
         <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark p-3">
             <div class="container-fluid ">

@@ -62,6 +62,10 @@ background-color: red;
 }
 
 /*Imagens*/
+.bg-img{
+    background-image: url('/img/BG/login2.png');
+    background-size: 100vw;
+}
 .imgpadrao{
     max-width: 400px;
     max-height: 400px;
@@ -69,6 +73,15 @@ background-color: red;
 }
 .img-banner{
     width: 100vw;
+}
+
+/*Login*/
+.t-login{
+margin: 11rem 32rem;
+
+}
+.bg-white{
+    background-color:#fff7;
 }
 
 /*Footer*/
