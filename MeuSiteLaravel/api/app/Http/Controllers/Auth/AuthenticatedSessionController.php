@@ -15,9 +15,18 @@ class AuthenticatedSessionController extends Controller
     /**
      * Display the login view.
      */
-    public function create(): View
+    public function create(Request $request): View
     {
-        return view('auth.login');
+        $flgPage = ltrim($request->getPathInfo(),'/');
+        $bgLogin= ::whereHas('sitePages', function ($query) use ($flgPage){
+			$query->where('flg_page', $flgPage);
+		 })->first();
+        $img_bg = $bgLogin->image_bg ."/". $flgPage . ".webp";
+
+    
+		
+        dd($request);
+        return view('auth.login')->with('img_bg'->$img_bg);
     }
 
     /**

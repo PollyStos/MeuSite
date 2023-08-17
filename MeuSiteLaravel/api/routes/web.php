@@ -4,7 +4,6 @@ use App\Http\Controllers\AboutController;
 use App\Http\Controllers\blogController;
 use App\Http\Controllers\GameController;
 use App\Http\Controllers\LearnController;
-use App\Http\Controllers\LoginController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\WelcomeController;
@@ -27,7 +26,6 @@ Route::get('blog', [blogController::class, 'index']);
 Route::get('projects', [ProjectController::class, 'index']);
 Route::get('about', [AboutController::class, 'index']);
 Route::get('game', [GameController::class, 'index']);
-Route::get('login', [LoginController::class, 'index']);
 
 Route::get('/dashboard', function () {
     return view('dashboard');

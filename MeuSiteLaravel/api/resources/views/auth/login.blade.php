@@ -7,10 +7,10 @@
     <!-- Session Status -->
     <x-auth-session-status class="mb-4" :status="session('status')" />
 
-    <section class="t-login card align-items-center border-0 bg-white">
+    <section class="t-login card align-items-center border-0 bg-white" style="url:({{img_bg}})>
         <div class="card-body d-flex flex-column p-3 align-items-center ">
             <h1 class="card-title p-3">Login</h1>
-                <div class="">
+                <div class="d-flex align-itens-center">
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
                         <!-- Email Address -->

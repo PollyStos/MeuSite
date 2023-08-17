@@ -18,13 +18,14 @@
     <link rel="shortcut icon" href="/img/favicon_io/favicon.ico" type="image/x-icon">
 
 
+
     <title>@yield('title')</title>
 
 </head>
 
 <body class="bg-base-light m-0">
     <div class="nav bg-dark ">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark p-3">
+        <nav id="menu" class="navbar navbar-expand-lg bg-body-tertiary fixed-top p-3 bg-opacity-10" style="">
             <div class="container-fluid ">
                 <a class="navbar-brand" href="/">
                     <img src="/img/favicon_io/android-chrome-192x192.png" width="30" height="30" alt="">
@@ -47,7 +48,7 @@
                 </div>
             </div>
         </nav>
-        <div class="m-3">
+        <!-- <div class="m-3">
             <button id="btn-outline-game" class="btn dropdown-toggle" data-toggle="dropdown">Jogos Online</button>
             <div class="dropdown-menu p-3">
                 <ul class="navbar-nav dropdown-header text-dark">Jogos
@@ -59,17 +60,20 @@
                 <a href="/login" class="dropdown-item text-dark">Login</a>
 
 
-            </div>
-        </div>
+            </div> -->
+    </div>
     </div>
 
     @yield('content')
+    <!-- script.js -->
+    <script src="/js/index.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-   
+
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 <footer class="footer_info bg-dark">
     <div class="d-flex flex-row justify-content-between mw-75">
