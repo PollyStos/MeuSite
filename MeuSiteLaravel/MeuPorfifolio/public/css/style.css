@@ -1,0 +1,26 @@
+body {
+    font-family: Aldrich, Bebas Neue, sans-serif;
+}
+
+.bg-menu{
+    background-image: url(/img/bg-menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bt-menu {
+    width: 200px;
+    height: 150px;
+    background:  url('/img/Button/button1.svg');
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: center;
+      }
+
+    .bt-menu h3{
+        font-size: 25px;
+    font-family: 'Londrina Solid', cursive;
+    color: rgb(219, 219, 219);
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    }
