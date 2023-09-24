@@ -1,6 +1,16 @@
 body {
-    font-family: Aldrich, Bebas Neue, sans-serif;
 }
+
+path {
+    fill: transparent;
+}
+
+text {
+    font-family: Aldrich, Bebas Neue, sans-serif;
+      font-size: 50px;
+    fill: #FF9800;
+  }
+
 
 .bg-menu{
     background-image: url(/img/bg-menu.svg);
