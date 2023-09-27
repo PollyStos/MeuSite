@@ -14,13 +14,11 @@
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<!-- Site Icons css -->
-	<link href="css/font-awesome.min.css" rel="stylesheet">
-	<link href="css/pe-icon-7-stroke.css" rel="stylesheet">
+	<link href="css/fontawesome.min.css" rel="stylesheet">
 	<!-- Site All plugins css -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<link href="css/owl.carousel.min.css" rel="stylesheet">
-	<link href="css/owl.theme.default.min.css" rel="stylesheet">
+	<link href="css/magnific-popup.min.css" rel="stylesheet">
+	
 	<!-- Site Main Style sheet css -->
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
@@ -48,14 +46,11 @@
 	
 	<!-- Site all Jquery js -->
 	<script src="js/jquery-3.5.1.min.js"></script>
+	
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/animated.headline.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/isotope.min.js"></script>
-	<script src="js/particles.js"></script>
-	<script src="js/particles-app.js"></script>
 	<script src="js/ajax-mail.js"></script>
 	<!-- Site Main js -->
 	<script src="js/main.js"></script>
