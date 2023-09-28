@@ -14,24 +14,14 @@
 								<h3>Contato</h3>
 							</div>
 						</div>
-						<!-- <div class="col-lg-12 col-md-12 col-sm-12">
-							<div class="contact-details">
-								<h6>Phone:</h6>
-								<p>+05 773 325 777</p>
-							</div>
-						</div> -->
+						
 						<div class="col-lg-12 col-md-12 col-sm-12">
 							<div class="contact-details">
 								<h6>Email:</h6>
 								<p>polly_stos@yahoo.com.br</p>
 							</div>
 						</div>
-						<!-- <div class="col-lg-12 col-md-12 col-sm-12">
-							<div class="contact-details">
-								<h6>Address:</h6>
-								<p>Beechwood Avenue - NY 55311, New York</p>
-							</div>
-						</div> -->
+						
 						<div class="col-lg-12 col-md-12 col-sm-12">
 							<div class="box-social-media">
 							<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>

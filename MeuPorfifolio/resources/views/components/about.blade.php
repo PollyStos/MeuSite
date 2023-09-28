@@ -18,8 +18,8 @@
 					<div class="about-content">
 						<h3>Eu sou <span>Polyana</span></h3>
 						<h6>Game Design, Programadora & Modeladora 3D.</h6>
-						<p>Estou atualmente cursando o 2º semestre de Engenharia de Computação na Uniara, com o sonho de me tornar uma desenvolvedora de jogos. Sou uma entusiasta da área de tecnologia e já busquei adquirir experiência e conhecimentos relevantes nesse campo específico.</p>
-						<p>Meu objetivo é combinar minha paixão pela tecnologia com minha criatividade e habilidades técnicas para desenvolver jogos envolventes e inovadores. Acredito que a união entre meus conhecimentos de programação e a compreensão de design e produção 3D me permitirá criar experiências únicas e imersivas para os jogadores.</p>
+						<p class="p-just" >Estou atualmente cursando o 2º semestre de Engenharia de Computação na Uniara, com o sonho de me tornar uma desenvolvedora de jogos. Sou uma entusiasta da área de tecnologia e já busquei adquirir experiência e conhecimentos relevantes nesse campo específico.</p>
+						<p class="p-just" >Meu objetivo é combinar minha paixão pela tecnologia com minha criatividade e habilidades técnicas para desenvolver jogos envolventes e inovadores. Acredito que a união entre meus conhecimentos de programação e a compreensão de design e produção 3D me permitirá criar experiências únicas e imersivas para os jogadores.</p>
 						<div class="about-contact-info">
 							<div class="row">
 								
