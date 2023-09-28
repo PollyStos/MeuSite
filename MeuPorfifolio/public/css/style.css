@@ -129,7 +129,7 @@ button:focus {
 	letter-spacing: 0.5px;
 	font-weight: 500;
 	border: 1px solid #ff6908;
-	border-radius: 3px;
+	border-radius: 10px;
 	background: #ff6908;
 	transition: all 500ms ease;
 	cursor: pointer;
@@ -224,7 +224,7 @@ dl, ol, ul {
 	width: 40px;
 	height: 42px;
 	line-height: 45px;
-	border-radius: 0;
+	border-radius: 20%;
 	text-align: center;
 	background: #ff6908;
 	transition: background 0.5s;
@@ -533,14 +533,14 @@ dl, ol, ul {
     background: rgb(3, 5, 16);
 }
 
-#particles-js {
+/* #particles-js {
   position: absolute;
   width: 100%;
   height: 100vh;
   top: 0;
   left: 0;
   z-index: 5;
-}
+} */
 
 .hero-equal-height {
 	position: relative;
@@ -659,6 +659,9 @@ dl, ol, ul {
 /**************************************
  * 05. About Section Style
  *************************************/
+.about-images-1{
+	border-radius: 70% 30% 30% 70% / 30% 30% 70% 70% ;
+}
 
 .about-img-wrapper {
 	padding: 0 20px 0 0;
@@ -678,6 +681,7 @@ dl, ol, ul {
     top: 15px;
     bottom: -15px;
 	border: 2px solid #ff6908;
+	border-radius: 70% 30% 30% 70% / 30% 30% 70% 70% ;
 }
 
 .about-content {
@@ -723,9 +727,13 @@ dl, ol, ul {
 
 .about-contact-info {
 	padding: 25px 30px;
-	background: #242425;
 	margin-top: 35px;
+}
+.about-contact{
+	background: #242425;
 	border-radius: 5px;
+	border-radius:   30% 70% 70% 30% / 30% 30% 70% 70% ;
+	margin-right: 30px;
 }
 .about-info-details {
 	text-align: center;
@@ -751,7 +759,6 @@ dl, ol, ul {
 .about-info-details .about-info-text p {
 	font-size: 14px;
 	color: #c5c5c5;
-	text-transform: capitalize;
 }
 
 /**************************************
@@ -1035,7 +1042,7 @@ dl, ol, ul {
  *************************************/
 
 .contact-area {
-	background: url(../img/contact-bg.png);
+	background: url(../img/contact-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -1076,7 +1083,6 @@ dl, ol, ul {
 	font-weight: 500;
 	font-size: 15px;
 	color: #a5a5a5;
-	text-transform: capitalize;
 }
 
 .box-social-media {
@@ -1132,7 +1138,7 @@ dl, ol, ul {
     padding-left: 20px;
     background-color: #2f2f2f;
     font-weight: 500;
-    border-radius: 3px;
+    border-radius: 10px;
     text-transform: capitalize;
     border-bottom: 1px solid #4a4a4a;
 }
@@ -1195,7 +1201,7 @@ button, input, textarea:focus {
  *************************************/
 
 .footer-area {
-	padding: 70px 0;
+	padding: 40px 0;
 }
 
 .copyright-area {

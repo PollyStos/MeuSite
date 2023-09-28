@@ -1,20 +1,20 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="pt-br">
 
 <head>
 	<meta charset="utf-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<meta name="keywords" content="creative, cv template, jquery, modern, onepage, personal, photography, portfolio, responsive, resume, ui-ux design, vcard, designer, freelancer, minimal, business, website, ajax from, bootstrap, html5">
-	<meta name="description" content="Sarah is a Personal Portfolio Template, You can use it for your personal resume, CV or your portfolio. It will help you to present your self even more smartly and easily. This template built with modern technologies like HTML5, CSS3, jQuery, Bootstrap 4. It’s easy to customize and also well documented so it’ll suit your needs.">
 	
 	<!-- Title -->
-	<title>Sarah - Personal Portfolio Landing Page Template</title>
+	<title>Polyana - Portfolio Pessoal</title>
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="img/favicon.ico">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="fonts/fontawesome-webfont.eot"rel="stylesheet">
 	<!-- Site Icons css -->
-	<link href="css/fontawesome.min.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<!-- Site All plugins css -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/magnific-popup.min.css" rel="stylesheet">
@@ -42,11 +42,10 @@
 @yield('content')
 
 <!-- Back to Top -->
-<div class="back-to-top"><i class="fa fa-caret-up"></i></div>
+<div class="back-to-top"><i class="fa fa-angle-double-up"></i></div>
 	
 	<!-- Site all Jquery js -->
 	<script src="js/jquery-3.5.1.min.js"></script>
-	
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/plugins.js"></script>
 	<script src="js/animated.headline.js"></script>

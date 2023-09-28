@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="section-title">
-						<h2>Portfolio</h2>
+						<h2>Portfólio</h2>
 					</div>
 				</div>
 			</div>
@@ -12,10 +12,10 @@
 				<div class="col-md-12">
 					<div class="portfolio-list">
 						<ul class="nav" id="portfolio-flters">
-							<li class="filter filter-active" data-filter=".all">all</li>
-							<li class="filter" data-filter=".branding">branding</li>
-							<li class="filter" data-filter=".webdesign">web design</li>
-							<li class="filter" data-filter=".photography">photography</li>
+							<li class="filter filter-active" data-filter=".all">Tudo</li>
+							<li class="filter" data-filter=".branding">Game Design</li>
+							<li class="filter" data-filter=".webdesign">Modelagem 3D</li>
+							<li class="filter" data-filter=".photography">Arte</li>
 						</ul>
 					</div>
 				</div>

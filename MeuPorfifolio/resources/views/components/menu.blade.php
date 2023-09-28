@@ -10,11 +10,11 @@
 			<div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
 				<ul class="navbar-nav">
 					<li class="nav-item"> <a class="nav-link js-scroll active" href="#home">Home</a></li>
-					<li class="nav-item"> <a class="nav-link js-scroll" href="#about">About</a></li>
+					<li class="nav-item"> <a class="nav-link js-scroll" href="#about">Sobre</a></li>
 					<!-- <li class="nav-item"> <a class="nav-link js-scroll" href="#service">Service</a></li> -->
 					<li class="nav-item"> <a class="nav-link js-scroll" href="#portfolio">Portfolio</a></li>
 					<!-- <li class="nav-item"> <a class="nav-link js-scroll" href="#review">Review</a></li> -->
-					<li class="nav-item"> <a class="nav-link js-scroll" href="#contact">Contact</a></li>
+					<li class="nav-item"> <a class="nav-link js-scroll" href="#contact">Contato</a></li>
 				</ul>
 			</div>
 		</div>
