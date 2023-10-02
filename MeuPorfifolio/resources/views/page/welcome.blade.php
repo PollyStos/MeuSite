@@ -4,7 +4,7 @@
 @include('components.menu')
 @include('components.home')
 @include('components.about')
-@include('components.portifolio')
+@include('components.portfolio.portfolio')
 @include('components.contact')
 @include('components.footer')
 

@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-title">
-					<h2>Entre em contato</h2>
+					<!-- <h2>Entre em contato</h2> -->
 				</div>
 			</div>
 			<div class="row">

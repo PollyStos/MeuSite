@@ -20,6 +20,7 @@
 	<link href="css/magnific-popup.min.css" rel="stylesheet">
 	
 	<!-- Site Main Style sheet css -->
+	<link href="css/blog.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">
 </head>
@@ -52,6 +53,7 @@
 	<script src="js/isotope.min.js"></script>
 	<script src="js/ajax-mail.js"></script>
 	<!-- Site Main js -->
+	<script src="js/admin/admin.js"></script>
 	<script src="js/main.js"></script>
 	
 </body>

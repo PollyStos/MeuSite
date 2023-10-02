@@ -23,9 +23,10 @@
  
 :root{
 	--cor-principal:#3d71ff;
-	--cor-secundaria:#19081d;
+	--cor-background:#19081d;
 	--cor-branco:#e6e5e5;
 	--cor-cinza-transparente:#7d7d7d6b;
+	--cor-cinza-transparente-bg:#ffffffaf;
 	--cor-escuro:#231628;
 	--cor-cinza:#c5c5c5;
 }
@@ -35,7 +36,7 @@
  *************************************/
 
  body {
-	background: var(--cor-secundaria);
+	background: var(--cor-background);
 	color: var(--cor-branco);
 	font-family: 'Jost', sans-serif;
 	font-size: 15px;
@@ -632,6 +633,7 @@ dl, ol, ul {
 .social-media a:hover {
 	opacity: .5;
 }
+
 
 /**************************************
  * 05. About Section Style
