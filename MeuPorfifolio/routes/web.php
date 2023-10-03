@@ -27,7 +27,7 @@ Route::get('/portfolio', function () {
     return view('page/page-portfolio');
 });
 
-Route::get('/admin/dashboard', function () {
+Route::get('/admin-dashboard', function () {
     return view('page/admin/admin');
 });
 

@@ -20,6 +20,7 @@
 	<link href="css/magnific-popup.min.css" rel="stylesheet">
 	
 	<!-- Site Main Style sheet css -->
+	<link href="css/admin.css" rel="stylesheet">
 	<link href="css/blog.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
 	<link href="css/responsive.css" rel="stylesheet">

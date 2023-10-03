@@ -1,6 +1,5 @@
-@extends('templates.layout-admin')
+@extends('templates.layout')
+
 @section('content')
-
-@include('components.admin.admin-content')
-
+@include('components.admin.admin-menu')
 @endsection
