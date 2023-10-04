@@ -56,7 +56,7 @@
 	<!-- Site Main js -->
 	<script src="js/admin/admin.js"></script>
 	<script src="js/main.js"></script>
-	
+
 </body>
 
 </html>
