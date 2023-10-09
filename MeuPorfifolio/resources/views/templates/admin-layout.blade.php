@@ -28,23 +28,7 @@
 
 <body>
 
-    <!-- Start Loadnig Page -->
-    <div class="loader-wrapper">
-        <div class="text-center middle">
-            <div class="lds-ellipsis">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-        </div>
-    </div>
-    <!-- End Loadnig Page -->
-
 @yield('content')
-
-<!-- Back to Top -->
-<div class="back-to-top"><i class="fa fa-angle-double-up"></i></div>
 	
 	<!-- Site all Jquery js -->
 	<script src="js/jquery-3.5.1.min.js"></script>

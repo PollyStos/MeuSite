@@ -19,14 +19,16 @@ Route::get('/portfolio', function () {
 Route::get('/admin-dashboard', function () {
     return view('page/admin/admin-dashboard');
 });
-Route::get('/admin-pages', function () {
-    return view('page/admin/admin-pages');
-});
 Route::get('/admin-portfolio', function () {
     return view('page/admin/admin-portfolio');
 });
 
-Route::get('/admin-page', [AdminPageController::class, 'showAdminPage']);
+// Rotas Admin
+Route::get('/admin-pages', [AdminPageController::class, 'show']);
+
+Route::get('admin/pages/create', [AdminPageController::class, 'create']);
+Route::post('admin/pages/create', [AdminPageController::class, 'store'])->name('page_register');
+Route::get('admin/pages/update/{id}', [AdminPageController::class, 'update']);
 
 
 
