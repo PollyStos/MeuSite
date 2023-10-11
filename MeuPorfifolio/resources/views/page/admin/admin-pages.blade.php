@@ -11,7 +11,7 @@
             <div class="single-full-text ">
                 <div class="d-flex justify-content-end mb-3">
                     <input type="search" name="" id="" placeholder="search">
-                    <a href="admin/pages/create" class="button-table" ><i class="fa fa-plus-circle" aria-hidden="true" title="Novo"></i></a>
+                    <a href="admin/pages/create" class="button-table"><i class="fa fa-plus-circle" aria-hidden="true" title="Novo"></i></a>
                 </div>
                 <!-- See _singles.scss for styling -->
                 <div class="text-block mar-b-sm-4 div-blog-text">
@@ -25,16 +25,22 @@
                             </tr>
                         </thead>
                         <tbody>
-                        @foreach ($allPages as $page)
+                            @foreach ($allPages as $page)
                             <tr>
                                 <td>{{$page->id}}</td>
                                 <td>{{$page->Page}}</td>
                                 <td style="text-align:center;">{{$page->URL}}</td>
                                 <td>
                                     <div class="d-flex flex-row justify-content-end">
-                                        <a class="button-table-action" href=""><i class="fa fa-eye" aria-hidden="true"title="Visualizar"></i></a>
-                                        <a class="button-table-action" href="admin/pages/update/{{$page->id}}"><i class="fa fa-pencil" aria-hidden="true"title="Editar"></i></a>
-                                        <a class="button-table-action" href=""><i class="fa fa-times-circle-o" aria-hidden="true"title="Excluir"></i></a>
+                                        <a class="button-table-action" href="admin/pages/view/{{$page->id}}"><i class="fa fa-eye" aria-hidden="true" title="Visualizar"></i></a>
+                                        <a class="button-table-action" href="admin/pages/update/{{$page->id}}"><i class="fa fa-pencil" aria-hidden="true" title="Editar"></i></a>
+                                        <form action="{{ route('page_delete', ['id' => $page->id]) }}" method="POST">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit" class="button-table-action" onclick="return confirm('Tem certeza que deseja excluir esta página?')">
+                                                <i class="fa fa-times-circle-o" aria-hidden="true" title="Excluir"></i>
+                                            </button>
+                                        </form>
                                     </div>
                                 </td>
                             </tr>

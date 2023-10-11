@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="d-flex justify-content-end">
-                       <button>Salvar</button>
+                       <button class="button" >Salvar</button>
                     </div>
                 </form>
             </div>

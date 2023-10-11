@@ -12,19 +12,19 @@
                         <label class="" for="">Inserir Página</label>
                 </div>
                 <!-- See _singles.scss for styling -->
-                <form action="{{route('page_update',['id' => $page->id])}}" method="post" >
-                   @csrf 
+                <form  method="get" action="">
+                    
                     <div class="row m-3">
                         <div class="col-8 ">
                             <div class="d-flex flex-column">
                                 <label for="">Pagina*</label>
-                                <input type="text" name="page" id="page" value="{{$page->Page}}">
+                                <input type="text" name="page" id="page" value="{{$page->Page}}" disabled>
                             </div>
                         </div>
                         <div class="col-4 ">
                             <div class="d-flex flex-column">
                                 <label for="">Flg*</label>
-                                <input type="text" name="flg" id="flg"value="{{$page->Flg}}">
+                                <input type="text" name="flg" id="flg"value="{{$page->Flg}}" disabled>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@
                         <div class="col-5">
                             <div class="d-flex flex-column">
                                 <label for="">URL*</label>
-                                <input type="text" name="url" id="url" value="{{$page->URL}}">
+                                <input type="text" name="url" id="url" value="{{$page->URL}}" disabled>
                             </div>
                         </div>
 
@@ -41,18 +41,17 @@
                             <div class="d-flex flex-row p-0">
                                 <div class="d-flex flex-column">
                                     <label for="">Mostrar no Menu*</label>
-                                    <input class="form-control" type="checkbox" name="checkMenu" id="checkMenu" {{ $page->CheckMenu == 1 ? 'checked' : '' }}>
+                                    <input class="form-control" type="checkbox" name="checkMenu" id="checkMenu"disabled {{ $page->CheckMenu == 1 ? 'checked' : '' }} disabled>
                                 </div>
                                 <div class="d-flex flex-column">
                                     <label for="">Abrir em outra Aba*</label>
-                                    <input class="form-control" type="checkbox" name="checkAba" id="checkAba"{{ $page->CheckAba == 1 ? 'checked' : '' }}>
+                                    <input class="form-control" type="checkbox" name="checkAba" id="checkAba" disabled {{ $page->CheckAba == 1 ? 'checked' : '' }}>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="d-flex justify-content-end">
-                       <button class="button" >Salvar</button>
+                       <a class="button" href="/admin/pages/update/{{$page->id}}">Editar</a>
                     </div>
                 </form>
             </div>

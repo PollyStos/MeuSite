@@ -28,7 +28,10 @@ Route::get('/admin-pages', [AdminPageController::class, 'show']);
 
 Route::get('admin/pages/create', [AdminPageController::class, 'create']);
 Route::post('admin/pages/create', [AdminPageController::class, 'store'])->name('page_register');
-Route::get('admin/pages/update/{id}', [AdminPageController::class, 'update']);
+Route::get('admin/pages/view/{id}', [AdminPageController::class, 'view']);
+Route::get('admin/pages/update/{id}', [AdminPageController::class, 'edit']);
+Route::post('admin/pages/update/{id}', [AdminPageController::class, 'update'])->name('page_update');
+Route::delete('admin/pages/delete/{id}', [AdminPageController::class, 'delete'])->name('page_delete');
 
 
 
