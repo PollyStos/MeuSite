@@ -1,19 +1,24 @@
 $(document).ready(function() {
-    // Oculta todas as seções de conteúdo no início, exceto a primeira
-    $(".page-wrapper").hide();
-    $("#dashboard-content").show();
-
-    // Captura o clique no botão "Dashboard"
-    $("#menu-dashboard").click(function() {
-        // Oculta todas as seções e mostra apenas a do admin-dashboard
-        $(".page-wrapper").hide();
-        $("#dashboard-content").show();
-    });
+    
 
     // Captura o clique no botão "Pages"
-    $("#menu-pages").click(function() {
-        // Oculta todas as seções e mostra apenas a do admin-pages
-        $(".page-wrapper").hide();
-        $("#pages-content").show();
+    $("#page-button").click(function() {
+        
+        
+        // Atualiza a label com a parte "update" da URL
+        var url = window.location.href;
+        var parts = url.split('/');
+        var lastPart = parts[parts.length - 1];
+        if(lastPart==="view"){
+            lastPart = "Visualizar"
+        }
+        if(lastPart==="update"){
+            lastPart = "atualizar"
+        }
+        if(lastPart==="create"){
+            lastPart = "Novo"
+        }
+        $("#page-label").text(lastPart);
     });
 });
+

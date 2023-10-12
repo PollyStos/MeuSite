@@ -11,7 +11,7 @@
             <div class="single-full-text ">
                 <div class="d-flex justify-content-end mb-3">
                     <input type="search" name="" id="" placeholder="search">
-                    <a href="admin/pages/create" class="button-table"><i class="fa fa-plus-circle" aria-hidden="true" title="Novo"></i></a>
+                    <a id="page-button" href="admin/pages/create" class="button-table"><i class="fa fa-plus-circle" aria-hidden="true" title="Novo"></i></a>
                 </div>
                 <!-- See _singles.scss for styling -->
                 <div class="text-block mar-b-sm-4 div-blog-text">
@@ -32,8 +32,8 @@
                                 <td style="text-align:center;">{{$page->URL}}</td>
                                 <td>
                                     <div class="d-flex flex-row justify-content-end">
-                                        <a class="button-table-action" href="admin/pages/view/{{$page->id}}"><i class="fa fa-eye" aria-hidden="true" title="Visualizar"></i></a>
-                                        <a class="button-table-action" href="admin/pages/update/{{$page->id}}"><i class="fa fa-pencil" aria-hidden="true" title="Editar"></i></a>
+                                        <a id="page-button" class="button-table-action" href="admin/pages/view/{{$page->id}}"><i class="fa fa-eye" aria-hidden="true" title="Visualizar"></i></a>
+                                        <a id="page-button" class="button-table-action" href="admin/pages/update/{{$page->id}}"><i class="fa fa-pencil" aria-hidden="true" title="Editar"></i></a>
                                         <form action="{{ route('page_delete', ['id' => $page->id]) }}" method="POST">
                                             @csrf
                                             @method('DELETE')

@@ -38,8 +38,6 @@
 	<script src="js/isotope.min.js"></script>
 	<script src="js/ajax-mail.js"></script>
 	<!-- Site Main js -->
-	<script src="js/admin/admin.js"></script>
-	<script src="js/main.js"></script>
 
 </body>
 
