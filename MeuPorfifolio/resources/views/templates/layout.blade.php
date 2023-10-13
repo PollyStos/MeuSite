@@ -11,7 +11,7 @@
 	<link rel="icon" type="image/png" href="img/favicon.ico">
 	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-	<link href="fonts/fontawesome-webfont.eot"rel="stylesheet">
+	<link href="{{ asset('fonts/fontawesome-webfont.eot') }}"rel="stylesheet">
 	<!-- Site Icons css -->
 	<link href="{{ asset('css/font-awesome.css') }}" rel="stylesheet">
 	<link href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
@@ -47,15 +47,14 @@
 <div class="back-to-top"><i class="fa fa-angle-double-up"></i></div>
 	
 	<!-- Site all Jquery js -->
-	<script src="js/jquery-3.5.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/plugins.js"></script>
-	<script src="js/animated.headline.js"></script>
-	<script src="js/isotope.min.js"></script>
-	<script src="js/ajax-mail.js"></script>
+	<script src="{{ asset('js/jquery-3.5.1.min.js') }}"></script>
+	<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+	<script src="{{ asset('js/plugins.js') }}"></script>
+	<script src="{{ asset('js/animated.headline.js') }}"></script>
+	<script src="{{ asset('js/isotope.min.js') }}"></script>
+	<script src="{{ asset('js/ajax-mail.js') }}"></script>
 	<!-- Site Main js -->
-	<script src="js/admin/admin.js"></script>
-	<script src="js/main.js"></script>
+	<script src="{{ asser('js/main.js') }}"></script>
 
 </body>
 

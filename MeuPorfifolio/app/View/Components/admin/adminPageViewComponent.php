@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Contracts\View\View;
 use Illuminate\View\Component;
 
-class adminFormCreatePage extends Component
+class adminPageViewComponent extends Component
 {
     /**
      * Create a new component instance.
@@ -21,6 +21,6 @@ class adminFormCreatePage extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.admin.admin-form-create-page');
+        return view('components.admin.admin-page-view-component');
     }
 }

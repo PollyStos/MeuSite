@@ -3,11 +3,9 @@
 @section('content')
 @include('components.admin.admin-menu')
 
-<div class="container">
-    <div class="row ">
-
-        <div class="flex-md-8 flex-lg-12 printable p-5">
-
+<div class="container heigth-content">
+    <div class="row heigth-content">
+        <div class="flex-md-8 flex-lg-12 printable p-5 heigth-content">
             <div class="single-full-text ">
                 <div class="d-flex justify-content-end mb-3">
                     <input type="search" name="" id="" placeholder="search">

@@ -11,8 +11,7 @@ class adminPage extends Model
         'Page',
         'Flg',
         'URL',
-        'CheckMenu',
-        'CheckAba'
+        'CheckMenu'
     ];
     use HasFactory;
 }
