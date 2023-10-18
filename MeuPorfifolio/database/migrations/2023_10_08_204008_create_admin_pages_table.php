@@ -16,7 +16,6 @@ return new class extends Migration
             $table->string('Page');
             $table->string('Flg');
             $table->string('URL');
-            $table->boolean('CheckMenu');
             $table->timestamps();
         });
     }

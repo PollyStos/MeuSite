@@ -27,7 +27,7 @@ if (lastSegmentCreate === 'create') {
 // Atualiza o conteúdo das labels com id "page-label"
 const labels = document.querySelectorAll("#page-label");
 labels.forEach(label => {
-    label.textContent = `${ChangePage} Página`;
+    label.textContent = `${ChangePage} `;
 });
 
 const mobileScreen = window.matchMedia("(max-width: 990px )");

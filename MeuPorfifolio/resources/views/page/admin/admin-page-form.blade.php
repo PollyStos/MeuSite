@@ -11,8 +11,6 @@
                     <label id="page-label" class="" for=""></label>
                 </div>
                 @include($viewComponent)
-                
-
             </div>
         </div>
     </div>

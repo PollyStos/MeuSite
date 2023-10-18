@@ -20,16 +20,4 @@
             <input type="text" name="url" id="url" value="{{$page->URL}}">
         </div>
     </div>
-
-    <div class="col-2">
-        <div class="d-flex flex-row p-0">
-            <div class="d-flex flex-column">
-                <label for="">Mostrar no Menu*</label>
-                <input class="form-control" type="checkbox" name="checkMenu" id="checkMenu" {{ $page->CheckMenu == 1 ? 'checked' : '' }}>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="d-flex justify-content-end">
-    <a id="form-btn" class="button" href="/admin/pages/update/{{$page->id}}" style="display: none;">Editar </a>
 </div>

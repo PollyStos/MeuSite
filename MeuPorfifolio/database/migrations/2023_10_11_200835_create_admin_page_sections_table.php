@@ -15,6 +15,8 @@ return new class extends Migration
                 $table->id();
                 $table->unsignedBigInteger('page_id');
                 $table->string('section_name');
+                $table->string('URL');
+                $table->boolean('CheckMenu');
                 $table->timestamps();
     
                 $table->foreign('page_id')->references('id')->on('pages')->onDelete('cascade');

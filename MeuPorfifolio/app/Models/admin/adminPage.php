@@ -10,8 +10,7 @@ class adminPage extends Model
     protected $fillable = [
         'Page',
         'Flg',
-        'URL',
-        'CheckMenu'
+        'URL'
     ];
     use HasFactory;
 }

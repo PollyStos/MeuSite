@@ -13,7 +13,7 @@
                     <i class="fa fa-file"></i> Páginas </a>
                 <div class='dashboard-nav-dropdown-menu'>
                     <a href="/admin-pages" class="dashboard-nav-dropdown-item">Listar Páginas</a>
-                    <a href="#" class="dashboard-nav-dropdown-item">Listar Seções</a>
+                    <a href="/admin-pages-section" class="dashboard-nav-dropdown-item">Listar Seções</a>
                 </div>
             </div>
 

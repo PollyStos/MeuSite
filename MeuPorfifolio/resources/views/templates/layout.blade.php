@@ -54,7 +54,7 @@
 	<script src="{{ asset('js/isotope.min.js') }}"></script>
 	<script src="{{ asset('js/ajax-mail.js') }}"></script>
 	<!-- Site Main js -->
-	<script src="{{ asser('js/main.js') }}"></script>
+	<script src="{{ asset('js/main.js') }}"></script>
 
 </body>
 
