@@ -28,10 +28,11 @@ class AdminPageController extends Controller
 
     public function store(Request $request)
     {
+        dd($request);
         adminPage::create([
             'Page' => $request->page,
-            'Flg' => $request->flg,
-            'URL' => $request->url
+            'URL' => $request->url,
+            'CheckMenu'=>$request->CheckMenu,
         ]);
 
         return redirect('/admin-pages');

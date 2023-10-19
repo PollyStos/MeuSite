@@ -1,24 +1,24 @@
 <?php
 
 namespace App\Models\admin;
-
-use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class adminPageSection extends Model
 {
-    // protected $table = 'page_sections'; 
+    // Nome da tabela associada ao modelo
+    protected $table = 'admin_page_sections';
     // Especifica o nome da tabela correspondente no banco de dados.
 
-    protected $fillable = ['page_id',
-     'section_name',
-     'URL',
-     'CheckMenu'
-    ]; // Define quais colunas podem ser preenchidas em massa.
+    protected $fillable = [
+        'page_id',
+        'section_name',
+        'URL',
+        'CheckMenu',
+    ];
 
-    // public function page()
-    // {
-    //     return $this->belongsTo(Page::class, 'page_id'); // Define o relacionamento de pertencimento a uma página.
-    // }
-    use HasFactory;
+    // Relacionamento com a tabela 'pages'
+    public function page()
+    {
+        return $this->belongsTo(Page::class, 'page_id');
+    }
 }

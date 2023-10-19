@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('admin_pages', function (Blueprint $table) {
             $table->id();
             $table->string('Page');
-            $table->string('Flg');
             $table->string('URL');
+            $table->boolean('CheckMenu');
             $table->timestamps();
         });
     }

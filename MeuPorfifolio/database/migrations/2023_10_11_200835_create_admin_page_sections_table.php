@@ -12,14 +12,14 @@ return new class extends Migration
     public function up(): void
     {
         Schema::create('admin_page_sections', function (Blueprint $table) {
-                $table->id();
-                $table->unsignedBigInteger('page_id');
-                $table->string('section_name');
-                $table->string('URL');
-                $table->boolean('CheckMenu');
-                $table->timestamps();
-    
-                $table->foreign('page_id')->references('id')->on('pages')->onDelete('cascade');
+            $table->id();
+            $table->unsignedBigInteger('page_id');
+            $table->string('section_name');
+            $table->string('URL');
+            $table->boolean('CheckMenu');
+            $table->timestamps();
+
+            $table->foreign('page_id')->references('id')->on('admin_pages')->onDelete('cascade');
         });
     }
 
